@@ -7,11 +7,10 @@ const teachers = [
   'Lewis',
   'Luca'
 ]; // NON MODIFICARE QUESTA VARIABILE
+console.log(teachers);
 
 // 1. Utilizzando un indice sull'array teachers, cambia il valore della
 // variabile fourthTeacher qui sotto in modo che sia il quarto insegnante elencato nell'array
-console.log(teachers);
-
 const fourthTeacher = teachers[3]
 console.log(fourthTeacher + " -- é il quarto insegnante nell'array");
 
@@ -48,22 +47,12 @@ console.log(lewisIndex + " -- é l'indice dell'insegnante Lewis nell'array");
 
 // 8. Verifica se l'array teachers è vuoto
 // e salva il risultato nella variabile isTeachersEmpty
-let isTeachersEmpty = ('')
-if (teachers.length > 0) {
-  isTeachersEmpty = false
-} else {
-  isTeachersEmpty = true
-}
+const isTeachersEmpty = teachers.length === 0;
 console.log("Alla domanda: l'array é vuoto? la risposta é: " + isTeachersEmpty);
 
 // ---------------- 9. Aggiuntivo per testare l'opposto dell'8 quesisto
 const teachers1 = [];
 console.log(teachers1);
 
-let isTeachersEmpty1 = ('')
-if (teachers1.length > 0) {
-  isTeachersEmpty1 = false
-} else {
-  isTeachersEmpty1 = true
-}
+const isTeachersEmpty1 = teachers.length === 0
 console.log("Alla domanda: l'array é vuoto? la risposta é: " + isTeachersEmpty1);
