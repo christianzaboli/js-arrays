@@ -22,13 +22,13 @@ console.log("Patrick -- ha sostituito l'insegnante del quinto indice nell'array,
 // 3. Rimuovi l'ultimo insegnante dall'array e salvalo nella variabile lastTeacher qui sotto
 const lastTeacher = teachers.pop();
 console.log(teachers);
-console.log(lastTeacher + " -- é l'ultimo/a insegnante della array ed é stato rimosso");
+console.log(lastTeacher + " -- é l'ultimo/a insegnante dell'array ed é stato rimosso");
 
 
 // 4. Rimuovi il primo insegnante dall'array e salvalo nella variabile firstTeacher qui sotto
 const firstTeacher = teachers.shift();
 console.log(teachers);
-console.log(firstTeacher + " -- é il primo/a insengante della array ed é stato rimosso");
+console.log(firstTeacher + " -- é il primo/a insengante dell'array ed é stato rimosso");
 
 // 5. Aggiungi un insegnante di nome 'Vanessa' alla fine dell'array teachers
 teachers.push('Vanessa')
